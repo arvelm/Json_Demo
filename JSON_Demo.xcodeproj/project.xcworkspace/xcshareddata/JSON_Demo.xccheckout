@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>460D774B-7CE9-4B6E-B1C8-3A39335444FE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>JSON_Demo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0090B33D-11BC-432E-8E5A-B0B3781F2BF1</key>
+		<string>https://github.com/arvelm/Json_Demo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>JSON_Demo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0090B33D-11BC-432E-8E5A-B0B3781F2BF1</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/arvelm/Json_Demo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0090B33D-11BC-432E-8E5A-B0B3781F2BF1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0090B33D-11BC-432E-8E5A-B0B3781F2BF1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JSON_Demo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

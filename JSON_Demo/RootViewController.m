@@ -71,7 +71,12 @@
         [self.view addSubview:imageView];
     }
     [self setupInterface];
-    self.title=_currentCity;
+    
+//    标题从date中提取
+    NSMutableString *week=[NSMutableString stringWithString:[_firstDay valueForKey:@"date"]];
+    [week deleteCharactersInRange:NSMakeRange(2, 16)];
+    self.title=week;
+    
     _cityLabel.text=_currentCity;
     _dateLabel.text=[_firstDay valueForKey:@"date"];
     _weatherLabel.text=[_firstDay valueForKey:@"weather"];
@@ -81,6 +86,17 @@
     
     NSDate *date=[[NSDate alloc]init ];
     NSLog(@"Time: %@",date);
+
+    
+   
+    
+
+    
+    
+    
+    
+    
+
     
 }
 
@@ -131,7 +147,10 @@
         _secondDay=_weatherData[1];
         _thirdDay=_weatherData[2];
         _forthDay=_weatherData[3];
-        NSLog(@"date:%@",[_firstDay valueForKey:@"dayPictureUrl"]);
+        NSLog(@"1stDay:%@",[_firstDay valueForKey:@"date"]);
+        NSLog(@"1stDay:%@",[_firstDay valueForKey:@"weather"]);
+        NSLog(@"1stDay:%@",[_firstDay valueForKey:@"wind"]);
+        NSLog(@"1stDay:%@",[_firstDay valueForKey:@"temperature"]);
         
     }else{
         UIAlertView *alertView=[[UIAlertView alloc]initWithTitle:@"消息" message:@"信息获取失败" delegate:nil cancelButtonTitle:@"返回" otherButtonTitles:nil, nil];
@@ -172,6 +191,13 @@
     _temperatureLable.textAlignment=NSTextAlignmentCenter;
     _temperatureLable.autoresizingMask=YES;
     [self.view addSubview:_temperatureLable];
+}
+
+-(void)weekend{
+    
+  
+    
+    
 }
 
 @end
